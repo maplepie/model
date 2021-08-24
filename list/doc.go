@@ -1,0 +1,1 @@
+import list // import "github.com/maplepie/model/list"
