@@ -7,7 +7,11 @@
 `Parse("input string")`即可将LeetCode中的字符串转成相应结构
 
 ```go
-import "github.com/maplepie/model/list"
+import (
+    "fmt"
+
+    "github.com/maplepie/model/list"
+)
 
 func main() {
     l, err := list.Parse([]byte("[1,4,7,11,15]"))
